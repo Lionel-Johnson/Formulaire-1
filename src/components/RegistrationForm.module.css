@@ -1,0 +1,28 @@
+.justifyContentAround {
+  text-align: -webkit-center;
+}
+
+.formStyle {
+  padding: 20px;
+  border: 0.1vw solid rgb(30, 1, 1);
+  border-radius: 1.5vw;
+  width: 52vw;
+  background-image: url('./Lionel.jpg');
+  box-shadow: rgba(136, 72, 9, 0.877) 1.1vw 1.1vw 1.1vw;
+}
+
+.formGroup {
+  display: flex;
+  margin-bottom: 1.5vw;
+  justify-content: space-between;
+}
+
+.formControl {
+  width: 20vw;
+  height: 2vw;
+  margin-left: 1vw;
+  color: #212529;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  background-color: bisque;
+}

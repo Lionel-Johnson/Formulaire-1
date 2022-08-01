@@ -1,0 +1,27 @@
+.button {
+  width: 15vw;
+  height: 30px;
+  display: block;
+  opacity: 80%;
+  color: #fff;
+  background-color: rgb(6, 156, 14);
+  border-color: rgb(4, 150, 24);
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+  opacity: 100%;
+  border-color: black;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button .submit{
+  color: red;
+}
